@@ -1,10 +1,10 @@
 # DIY Lithium charger
 
 
-First of all, I'm not in any way responsible for any damage that 
+<b>First of all, I'm not in any way responsible for any damage that 
 could be an outcome of using any part of this circuit.
 Lithium batteries are dangerous and shouldn't be handled by unexperienced
-persona. Never leave you packs unattended.
+persona. Never leave you packs unattended.</b>
 
 
 I'm aiming to develop a cheap, safe, easy to build and multi-channel lithium charger.
@@ -14,8 +14,10 @@ for anyone that built a battery from used or mismatched cells.
 
 Main goals:<b>
 
-Independent, balanced channels,
-Easy and cheap to expand,
-Possibly the smallest form factor,
-Wide input and output voltage range, 
-Making it safe to use.
+    Independent, balanced channels,
+    Easy and cheap to expand,
+    Possibly the smallest form factor,
+    Wide input and output voltage range, 
+    Making it safe to use.
+
+Please remember that it is all work in progress.
