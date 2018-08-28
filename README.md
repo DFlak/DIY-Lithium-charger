@@ -12,7 +12,7 @@ Everyone knows that you can already buy things like iMax B6 clones or whatever. 
 those chargers only allow you to charge one battery at a time and their balancing current is less than enough
 for anyone that built a battery from used or mismatched cells.
 
-Main goals:
+Main goals:<b>
 
 Independent, balanced channels,
 Easy and cheap to expand,
