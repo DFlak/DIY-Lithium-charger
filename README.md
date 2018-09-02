@@ -4,7 +4,7 @@
 <b>First of all, I'm not in any way responsible for any damage that 
 could be an outcome of using any part of this circuit.
 Lithium batteries are dangerous and shouldn't be handled by unexperienced
-persona. Never leave you packs unattended.</b>
+persona. Never leave your packs unattended.</b>
 
 
 I'm aiming to develop a cheap, safe, easy to build and multi-channel lithium charger.
