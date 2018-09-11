@@ -38,7 +38,11 @@ Will post updates with photos as I etch double-sided clad and test this circuit.
 
 Basically this charger will push current into lithium packs using [LM2596 based step-down converters] (https://www.aliexpress.com/item/1Pcs-LM2596S-DC-DC-Constant-Current-Module-LM2596-DC-DC-7V-35V-Step-down-Adjustable-CC/32849005778.html?spm=a2g0s.9042311.0.0.27424c4dF48BmC). They have usefull feature which is constant current mode and low drift floating voltage. However, them being step-down topology they need their Vin to be at least 2,5V greater than output. Anything lower than that can result in unstable operation of such converter. To remedy this problem I utilized [150W DC-DC Boost converter] (https://www.aliexpress.com/item/150W-DC-DC-Boost-Converter-Step-Up-Power-Supply-Module-10-32V-To-12-35V-10A/2038554691.html?spm=a2g0s.9042311.0.0.27424c4dqFSutO) which is set to 19,5V, 2,7volts higher than full 4S Li-po pack. 
 In order to stack the LM25965 converters I needed to change the orientation of trimpots from vertical to horizontal. It was done easily with a help of solder wick. Converters are held to each other via epoxy glue on top of the electrolytic capacitors. Heat didn't pose any issues while charging at 1.7A x3 packs. Neither LM25965 nor 150W boost converter were hot to the touch. 
-<img align="centert" width="200" height="200" src="https://github.com/DFlak/DIY-Lithium-charger/blob/master/Bare%20bones/charger.jpg">
+
+
+
+<img align="centert" width="600" height="600" src="https://github.com/DFlak/DIY-Lithium-charger/blob/master/Bare%20bones/charger.jpg">
+
 
 I was powering this ciruit from diy-made 4s pack. 
 The bare bones of this project are considered done. To expand this charger for more packs you would need to put more LM25965's in parallel keeping in mind the maximum of 150W for each boost converter. My estimate is that one boost converter can supply five charger modules.
