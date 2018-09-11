@@ -28,8 +28,8 @@ The circuit used to build this balancer was created by Afdhal Atiff Tan Amin Hus
 A thing worth noting is that it doesn't matter if you choose 1012ohm resistors or 980ohm or whatever value. Only thing that matters is that those resistors need to be 0.1% or even closer to each other. 
 I've created this design on regular FR4 1,6mm 35um copper clad. Initially I wanted to etch two sides on one-sided clads and then solder them together by vias but it ended up looking like crap and taking way more time that it needed. 
 Will post updates with photos as I etch double-sided clad and test this circuit.
-- [*] Create prototype PCB
-- [*] Get really dissapointed with the results
+- [x] Create prototype PCB
+- [x] Get really dissapointed with the results
 - [ ] Order some double-sided PCBs
 - [ ] Etch and prototype
 - [ ] Post results
