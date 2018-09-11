@@ -50,14 +50,14 @@ The bare bones of this project are considered done. To expand this charger for m
 ## Control, safety and feedback
 
 This charger will use Arduino Nano as a controller. Packs will be switched with a 5V RelPol relays. Each cell will be monitored using [CD74HC4067](https://www.aliexpress.com/item/Smart-Electronics-CD74HC4067-16-Channel-Analog-Digital-Multiplexer-Breakout-Board-Module-for-Arduino/32724398868.html?spm=a2g0s.9042311.0.0.61b64c4dKA2mvk), calibrated resistive voltage divider and [ADS1115 16bit ADC](https://www.aliexpress.com/item/I2C-ADS1115-ADS1015-16-Bit-ADC-4-channel-Module-with-Programmable-Gain-Amplifier-2-0V-to/32674556200.html?spm=2114.search0104.3.9.12472300DBfJgK&ws_ab_test=searchweb0_0,searchweb201602_4_10065_10068_10843_10059_5016517_10696_100031_5016717_10084_10083_10103_451_10618_452_10304_10307_5016617_10820_10301_10821_5016417,searchweb201603_45,ppcSwitch_5&algo_expid=fb968794-6da6-4dc2-80d7-a833cd81f520-1&algo_pvid=fb968794-6da6-4dc2-80d7-a833cd81f520&transAbTest=ae803_2&priceBeautifyAB=0). I'm planning on adding current monitoring but it all depends whether I can develop reliable and cheap low-side current meter without introducing any more losses. Voltage of each cell will be displayed on regular [16x2 LCD](https://www.aliexpress.com/item/1pcs-lot-New-1602-16x2-Character-LCD-Display-Module-HD44780-Controller-blue-blacklight-IN-STOCK/32328960211.html?spm=2114.search0104.3.2.56aa3c811IH5dc&ws_ab_test=searchweb0_0,searchweb201602_4_10065_10068_10843_10059_5016517_10696_100031_5016717_10084_10083_10103_451_10618_452_10304_10307_5016617_10820_10301_10821_5016417,searchweb201603_45,ppcSwitch_5&algo_expid=6a017778-b50d-4f92-a064-2eaae25a3f11-0&algo_pvid=6a017778-b50d-4f92-a064-2eaae25a3f11&transAbTest=ae803_2&priceBeautifyAB=0). Arduino will guard if every cell's voltage is in 3.2V < X > 4.2V range. Only then will it allow the relay to connect pack to the charger. Good idea would be to add a capacity meter, capacity limit and charging time limit. First two are dependant on my current meter so I don't know if it will be included.
-[x] Order all of the parts
-[ ] Receive all of the parts 
-[ ] Think of a way to measure current
-[ ] Create schematic
-[ ] Create .brd 
-[ ] Etch and prototype PCB
-[ ] Create arduino code
-[ ] Test the thing thoroughly
-[ ] Post all the files here
+- [x] Order all of the parts
+- [ ] Receive all of the parts 
+- [ ] Think of a way to measure current
+- [ ] Create schematic
+- [ ] Create .brd 
+- [ ] Etch and prototype PCB
+- [ ] Create arduino code
+- [ ] Test the thing thoroughly
+- [ ] Post all the files here
 
 ### If anyone is interested in helping me feel free to contact me via mail at wtflolrotfl@gmail.com :)
