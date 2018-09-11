@@ -60,4 +60,4 @@ This charger will use Arduino Nano as a controller. Packs will be switched with 
 [ ] Test the thing thoroughly
 [ ] Post all the files here
 
-###If anyone is interested in helping me feel free to contact me via mail at wtflolrotfl@gmail.com :)
+### If anyone is interested in helping me feel free to contact me via mail at wtflolrotfl@gmail.com :)
